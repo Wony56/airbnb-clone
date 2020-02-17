@@ -61,6 +61,7 @@ MIDDLEWARE = [
     "django.contrib.auth.middleware.AuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
+    "django.middleware.locale.LocaleMiddleware",
 ]
 
 ROOT_URLCONF = "config.urls"
@@ -127,6 +128,8 @@ USE_TZ = True
 
 STATIC_URL = "/static/"
 
+STATICFILES_DIRS = [os.path.join(BASE_DIR, "static")]
+
 AUTH_USER_MODEL = "users.User"
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "uploads")
@@ -140,3 +143,12 @@ EMAIL_PORT = "587"
 EMAIL_HOST_USER = os.environ.get("MAILGUN_USERNAME")
 EMAIL_HOST_PASSWORD = os.environ.get("MAILGUN_PASSWORD")
 EMAIL_FROM = "noreply@sandbox405b761e75df4d9ca73808feadc8371d.mailgun.org"
+
+# Auth
+
+LOGIN_URL = "/users/login"
+
+# Locale
+
+LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
+
