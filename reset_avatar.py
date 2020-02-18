@@ -8,3 +8,7 @@ def reset_avatar():
         user.avatar = None
         user.save()
 
+
+if __name__ == "__main__":
+    reset_avatar()
+    
