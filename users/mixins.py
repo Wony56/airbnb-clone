@@ -29,7 +29,3 @@ class LoggedOutOnlyView(UserPassesTestMixin):
 class LoggedInOnlyView(LoginRequiredMixin):
 
     login_url = reverse_lazy("users:login")
-
-
-# def test_func(self):
-#     return self.request.user.is_authenticated
