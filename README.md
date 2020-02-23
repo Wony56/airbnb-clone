@@ -5,11 +5,11 @@
 - [3. 주요 구현사항](#3.-주요-구현사항)
 - [4. 상세 구현사항](#4.-상세-구현사항)
     - [메인페이지](#메인페이지)
-    - [인증처리](#인증처리)
-        - [OAuth 인증하기(카카오)](#OAuth-인증하기(카카오))
+    - [인증 처리](#인증-처리)
+        - [OAuth 인증하기-카카오](#OAuth-인증하기-카카오-)
     - [숙소 상세페이지 및 예약 기능](#숙소-상세페이지-및-예약-기능)
     - [호스트 신분으로 숙소 등록](#호스트-신분으로-숙소-등록)
-    - [인가(Authorization) 처리](#인가(Authorization)-처리)
+    - [인가 처리](#인가-처리)
     - [호스트와 메시지 주고 받기](#호스트와-메시지-주고-받기)
     - [AWS Elastic Beanstalk로 배포하기](#AWS-Elastic-Beanstalk로-배포하기)
     - [AWS RDS로 데이터베이스 구축하기](#AWS-RDS로-데이터베이스-구축하기)
@@ -54,7 +54,7 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 
 메인페이지에는 등록된 숙소들의 리스트로 구성되며, 상단에는 검색입력바와 메뉴버튼이 있고 아래의 리스트는 Pagenation을 적용하였다.
 
-### `인증처리`
+### `인증 처리`
 
 <div style="display:flex; justify-content: center; text-align: center;">
     <div>
@@ -80,7 +80,7 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
     </div>
 </div>
 
-#### `OAuth 인증하기(카카오)`
+#### `OAuth 인증하기-카카오`
 
 1. **kakao developer**사이트에 App을 등록하고, *REST API 키*를 가져온다.
 
@@ -229,7 +229,7 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 
 - 숙소를 등록하면 호스트는 자신의 프로필 페이지에서 등록한 숙소 리스트를 볼 수 있다.
 
-### `인가(Authorization) 처리`
+### `인가 처리`
 
 - UserPassesTestMixin과 LoginRequiredMixin을 상속받아 커스터마이징한 minxin을 사용하였다.(views.py에서 인가 처리가 필요한 부분이 CBV방식으로 구현된 경우에 한함.)
 
