@@ -86,7 +86,7 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 
 <div style="display:flex; justify-content: center; text-align: center;">
     <div>
-        <img src="./img/kakao_key.png" width="300">
+        <img src="./img/kakao_key.png" width="500">
         <div>등록한 App의 API 키</div>
     </div>
 </div>
@@ -179,11 +179,11 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 ### `숙소 상세페이지 및 예약 기능`
 <div style="display:flex; justify-content: center; text-align: center;">
     <div>
-        <img src="./img/Room_host.png" width="500">
+        <img src="./img/Room_host.png" width="400">
         <div>상세페이지(호스트)</div>
     </div>
     <div style="margin-left: 5px">
-        <img src="./img/Room_client.png" width="500">
+        <img src="./img/Room_client.png" width="400">
         <div>상세페이지(클라이언트)</div>
     </div>
 </div>
@@ -204,11 +204,11 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 ### `호스트 신분으로 숙소 등록`
 <div style="display:flex-col; justify-content: center; text-align: center;">
     <div>
-        <img src="./img/starthosting.png" width="300">
+        <img src="./img/starthosting.png" width="500">
         <div>클라이언트 모드</div>
     </div>
     <div>
-        <img src="./img/hostingmode.png" width="300">
+        <img src="./img/hostingmode.png" width="500">
         <div>호스트 모드</div>
     </div>
 </div>
@@ -218,11 +218,11 @@ Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad C
 
 <div style="display:flex; justify-content: center; text-align: center;">
     <div>
-        <img src="./img/createroom.png" width="300">
+        <img src="./img/createroom.png" width="500">
         <div>숙소 등록 페이지</div>
     </div>
     <div style="margin-left: 5px;">
-        <img src="./img/profile.png" width="300">
+        <img src="./img/profile.png" width="500">
         <div>프로필</div>
     </div>
 </div>
