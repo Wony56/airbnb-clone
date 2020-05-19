@@ -18,7 +18,8 @@
 ---
 ## 1. 개요
 Django 기반의 웹 애플리케이션 개발에 대해 학습하고자 Nomad Coders의 온라인 강의를 보며 제작한 사이트입니다.
-- **[Airbnb 클론 사이트](http://airbnb-clone.efn2p2xx6q.ap-northeast-2.elasticbeanstalk.com/)**
+- <s>**[Airbnb 클론 사이트](http://airbnb-clone.efn2p2xx6q.ap-northeast-2.elasticbeanstalk.com/)**</s> (AWS 무료 사용 기간 만료)
+- [시연 영상](https://www.youtube.com/watch?v=d-hrQeQcLis)
 
 ## 2. 개발 환경
 
